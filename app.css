@@ -1,0 +1,40 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  border: 0;
+  padding: 0;
+}
+
+.container {
+  width: 500px;
+  margin: 120px auto;
+  font-family: "Courier New", Courier, monospace;
+  text-transform: capitalize;
+  font-size: 10px;
+}
+
+h1 {
+  margin: 10px auto;
+}
+
+ul {
+  list-style-type: none;
+}
+
+li {
+  display: inline-block;
+  margin-right: 5px;
+  padding: 5px 5px;
+  border: 1px solid blue;
+  border-radius: 10px;
+}
+
+li:nth-child(even) {
+  background-color: lightgray;
+}
+
+li:hover {
+  cursor: pointer;
+  color: orange;
+  border-color: orange;
+}
